@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   ]
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black static nav">
       <div>
         <h1 className="text-5xl font-signature ml-2">
           <Link className="link-underline link-underline-black" href="" target="_blank" rel="noreferrer">
